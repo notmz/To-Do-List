@@ -15,17 +15,7 @@ _Features_
 
 ✔️ User-friendly interface with gold-bordered buttons
 
-*Installation*
 
-1. Clone the repository
-
-git clone https://github.com/yourusername/your-repo-name.git
-
-
-2. Run the script using Python.
-
-
-
-License
+# License
 
 This project is licensed under the MIT License.
