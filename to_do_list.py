@@ -136,11 +136,4 @@ tasks_frame.pack(fill="both", expand=True, pady=5)
 
 # Load tasks from file (if any)
 load_tasks()
-
-# Creator label in a gold box at the bottom right corner
-creator_frame = tk.Frame(main_frame, bg=accent_color, padx=5, pady=2)
-creator_label = tk.Label(creator_frame, text="Made by Mohammed Zidan", bg=accent_color, fg=bg_color, font=("Arial", 8, "italic"))
-creator_label.pack()
-creator_frame.place(relx=1.0, rely=1.0, anchor="se", x=-5, y=-5)
-
 root.mainloop()
