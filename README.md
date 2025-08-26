@@ -1,5 +1,5 @@
-# To-Do-List-app
-Luxury-Themed To-Do List App
+# To-Do-List
+Luxury-Themed To-Do List
 
 A sleek dark-mode to-do list application with gold accents, designed for an elegant task management experience.
 
