@@ -2,22 +2,22 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Color scheme
-bg_color = "#1c1c1c"         # Luxury black background
-accent_color = "#FFD700"     # Shiny luxury gold
-entry_bg = "#333333"         # Dark grey for entry and task backgrounds
+bg_color = "#1c1c1c"         # Black background
+accent_color = "#FFD700"     # Gold
+entry_bg = "#333333"         # Dark grey 
 
-# List to store task rows (each as a tuple: (frame, BooleanVar, task_text))
+# List to store task rows
 tasks_items = []
 
 def create_task(task_text, completed=False):
-    # Create a frame for the task row
+    # Frame for the task row
     task_frame = tk.Frame(tasks_frame, bg=bg_color)
     task_frame.pack(fill="x", pady=2)
     
     # Boolean variable for checkbutton state
     var = tk.BooleanVar(value=completed)
     
-    # Checkbutton with a gold border on the left side
+    # Checkbutton (Gold)
     check = tk.Checkbutton(
         task_frame,
         variable=var,
@@ -48,7 +48,7 @@ def add_task():
 
 def remove_task():
     global tasks_items
-    # Remove tasks that have been marked as completed (checkbox checked)
+    # Remove tasks (checkbox checked)
     for task in tasks_items[:]:
         frame, var, text = task
         if var.get():
